@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 
 
 from_addr=' '
-to_addr=['jgduyfh@gmail.com','hisbdcuegf.@gmail.com','randommail@gmail.com','random2@gmail.com']
+to_addr=['jgduyfh@gmail.com','hisbdcuegf.@gmail.com','randommail@gmail.com','random2@gmail.com','testmail@gmail.com]
 msg=MIMEMultipart()
 msg['From']=from_addr
 msg['To']=" ,".join(to_addr)
